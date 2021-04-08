@@ -1,0 +1,463 @@
+/* ==================================== */
+/* ============== Welcome ============= */
+/* ==================================== */
+.welcome {
+  width: 100%;
+  background: url('../assets/backgrounds/Path309.svg');
+  height: 799px;
+  padding-top: 48px;
+  box-sizing: border-box;
+}
+header {
+  margin: 0 145px;
+}
+#logo {
+  display: inline-block;
+  vertical-align: top;
+  font-weight: bold;
+  width: 137px;
+  height: 64px;
+}
+.mainNav {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 420px;
+}
+.mainNav li {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  font: 16px/21px 'BPG Nino Mtavruli';
+  letter-spacing: 0px;
+  color: #454545;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 93px;
+  letter-spacing: 1.4px;
+}
+.mainNav li:first-child {
+  margin-left: 0;
+}
+.mainNav li p:first-child {
+  font-size: 18x;
+}
+.mainNav li:last-child {
+  margin-left: 120px;
+}
+.mainNav li p {
+  font-size: 16px;
+  letter-spacing: 0px;
+}
+.mainNav li i {
+  color: #5e64cf;
+}
+.carWrapper {
+  position: relative;
+  background-color: red;
+  background: url('../assets/backgrounds/Path1.svg');
+  width: 857.72px;
+  height: 590.5px;
+  float: right;
+  margin-top: 25px;
+}
+#car {
+  position: relative;
+  top: 65px;
+  right: 200px;
+}
+.welcomeInfo {
+  display: inline-block;
+  width: 525px;
+  height: 225px;
+  vertical-align: middle;
+  margin-left: 140px;
+  margin-top: 150px;
+}
+.welcomeInfo h1 {
+  font: normal normal 600 42px/36px FiraGO;
+  letter-spacing: 4px;
+  color: #454545;
+  text-transform: uppercase;
+  font-family: BPG Nino Mtavruli;
+  font-weight: bolder;
+}
+.welcomeInfo p {
+  text-align: left;
+  font: normal normal normal 18px/28px FiraGO-Book;
+  letter-spacing: 0px;
+  color: #454545;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.welcomeInfo button {
+  background: transparent linear-gradient(270deg, #f19767 0%, #f8b963 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 20px;
+  border: none;
+  padding: 16px 71px;
+  font-size: 22px;
+}
+.welcomeInfo button:hover,.contactForm input:last-child:hover {
+  cursor: pointer;
+}
+/* ==================================== */
+/* ============== Offers ============== */
+/* ==================================== */
+
+.offers {
+  margin-top: 102px;
+}
+.offers h1 {
+  font-size: 28px/27px;
+  letter-spacing: 4px;
+}
+
+.offersBoxWrapper {
+  display: flex;
+  margin-top: 42px;
+  justify-content: center;
+}
+.offersBox {
+  width: 290px;
+  height: 335px;
+  margin: 0 29px;
+  background: #f5f8ff 0% 0% no-repeat padding-box;
+  border-radius: 30px;
+}
+.offersBox img {
+  margin-top: 52px;
+}
+.offersBox h4 {
+  width: 160px;
+  font-size: 18px;
+  margin: 44px auto 16px auto;
+  font: normal normal 600 18px/27px BPG Nino Mtavruli;
+  letter-spacing: 0.27px;
+  color: #454545;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.offersBox p {
+  width: 263px;
+  font-size: 16px;
+}
+.selectedBox {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 20px #00000029;
+}
+
+/* ==================================== */
+/* =============== Info =============== */
+/* ==================================== */
+
+.info {
+  margin-top: 250px;
+}
+.info h2 {
+  font: normal normal 600 24px/27px BPG Nino Mtavruli;
+}
+.info p {
+  font: normal normal normal 16px/28px FiraGO-Book;
+  letter-spacing: 0.32px;
+}
+.info > div:last-child {
+  position: relative;
+  margin-top: 140px;
+}
+.infoText1 {
+  width: 610px;
+  display: inline-block;
+  margin-left: 134px;
+}
+.infoText1 h2 {
+  letter-spacing: 0.36px;
+  color: #454545;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+
+.Background1 {
+  float: right;
+  width: 730px;
+  height: 497px;
+  padding: 26px 0 0 112px;
+  background: url('../assets/backgrounds/Path226.svg');
+  box-sizing: border-box;
+  margin-top: -40px;
+}
+
+.infoText2 {
+  width: 600px;
+  display: inline-block;
+  margin-left: 120px;
+  vertical-align: middle;
+}
+.infoText2 h2 {
+  margin-bottom: 23px;
+  letter-spacing: 0.36px;
+  color: #454545;
+  text-transform: uppercase;
+}
+
+.Background2 {
+  display: inline-block;
+  width: 736px;
+  height: 548px;
+  padding: 81px 0 0 269px;
+  background: url('../assets/backgrounds/Path262.svg');
+  background-repeat: no-repeat;
+  background-position: -103px;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+/* ==================================== */
+/* ============== Tables ============== */
+/* ==================================== */
+.tables {
+  margin-top: 135px;
+}
+
+.serviceTable {
+  width: 1100px;
+  margin: auto;
+  background: #eff3ff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 20px #00000029;
+  margin-top: 25px;
+  color: #454545;
+  letter-spacing: 0px;
+  border-radius: 15px;
+  border-collapse: collapse;
+  font-family: FiraGO-Book;
+}
+.serviceTable thead {
+  text-align: left;
+  font-size: 18px;
+  background-color: #d2dcfc;
+
+}
+.serviceTable th {
+  padding-left: 37px;
+}
+.serviceTable th:first-child {
+  border-radius: 15px 0px 0px 0px;
+}
+.serviceTable th:last-child {
+  border-radius: 0px 15px 0px 0px;
+}
+.serviceTable tbody {
+  font-size: 16px;
+  color: #666666;
+}
+.sign {
+  font-size: 31px;
+}
+.serviceTable tfoot {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.serviceTable tfoot td:first-child {
+  font-size: 22px;
+}
+.serviceTable tfoot tr {
+  border: none;
+}
+.serviceTable tr {
+  height: 71px;
+  border-bottom: 2px solid #fff;
+}
+.serviceTable tr td:first-child {
+  width: 132px;
+}
+.serviceTable th,
+.moreServTable tr {
+  border-bottom: 2px solid #fff;
+}
+.serviceTable td {
+  padding-left: 37px;
+}
+.tables h3 {
+  margin: 77.25px 0 34.82px 264.72px;
+  font-size: 20px;
+  font-family: FiraGO-Book;
+  font-weight: 200;
+}
+.moreServTable {
+  margin: auto;
+  color: #454545;
+  font: normal normal normal 16px/22px FiraGO;
+  color: #454545;
+  text-align: center;
+  border-collapse: collapse;
+  background: #eff3ff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 15px #00000029;
+  border-radius: 20px;
+  font-size: 16/22px;
+}
+.moreServTable tr {
+  height: 130px;
+}
+
+.moreServTable tr td:nth-child(2) {
+  width: 174px;
+}
+
+.moreServTable tr:last-child {
+  border: none;
+}
+.moreServTable td {
+  width: 216.67px;
+  padding: 34px 71px 0 71px;
+}
+.moreServTable tr td:first-child {
+  text-align: left;
+  padding-left: 104px;
+}
+.moreServTable tr td:last-child {
+  padding-right: 104px;
+}
+
+/* ==================================== */
+/* ============== contact ============= */
+/* ==================================== */
+
+.contact h2 {
+  font-family: BPG Nino Mtavruli;
+  font: normal normal bold 24px/27px BPG Nino Mtavruli;
+  text-align: center;
+  margin-top: 112px;
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+.contact p,
+.contactForm {
+  width: 478px;
+  margin: auto;
+  font-size: 14px;
+}
+
+.contactForm input,
+.contactForm textarea {
+  padding: 11px;
+  width: 100%;
+  border: 1px solid #707070;
+  border-radius: 15px;
+  margin: 11px 0;
+  box-sizing: border-box;
+}
+
+.contactForm textarea {
+  height: 97px;
+  border-radius: 25px;
+}
+.contactForm input:last-child {
+  width: 100%;
+  font: normal normal normal 16px/17px BPG Nino Mtavruli;
+  letter-spacing: 0px;
+  color: #131315;
+  background: transparent linear-gradient(270deg, #f19867 0%, #f8b863 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 15px;
+  border:none
+}
+
+/* ==================================== */
+/* ============= companies ============ */
+/* ==================================== */
+.companies {
+  margin-top: 155px;
+}
+.companies h2 {
+  margin-bottom: 40px;
+  font: normal normal medium 24px/27px FiraGO;
+  letter-spacing: 0.36px;
+  color: #454545;
+  text-transform: uppercase;
+  text-align: center;
+}
+.companniesWrapper {
+  display: flex;
+  justify-content: center;
+}
+.companny {
+  margin: 0 47px;
+  vertical-align: top;
+}
+/* ==================================== */
+/* ============== footer ============== */
+/* ==================================== */
+
+footer {
+  background: transparent linear-gradient(180deg, #616ad2f8 0%, #313569 100%) 0%
+    0% no-repeat padding-box;
+  border: 1px solid #707070;
+  text-align: left;
+  margin-top: 90px;
+}
+
+footer p,
+footer ul {
+  opacity: 0.7;
+  font: normal normal 300 18px/38px FiraGO-Book;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+footer ul li {
+  font-size: 16px;
+}
+footer ul li:first-child {
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.footerContent {
+  width: 1292px;
+  margin: auto;
+  margin-top: 57.64px;
+  display: flex;
+}
+.footerContent > div:first-child {
+  width: 130px;
+}
+
+footer {
+  height: 365px;
+}
+.footerlLogoWrapper p:first-child {
+  margin-top: 32.77px;
+}
+.footerlLogoWrapper p:last-child {
+  margin-top: 16px;
+}
+.ftMiddle {
+  margin: 20px 180px 0 144px;
+  display: flex;
+}
+.ftMiddle div {
+  margin: 0 50px;
+}
+.ftMiddle ul li {
+  line-height: 16px;
+  margin-bottom: 10px;
+  font-family: FiraGO-Regular;
+}
+.ftMiddle ul li:first-child {
+  margin-bottom: 24px;
+  font-family: BPG Nino Mtavruli;
+}
+.icons-list li {
+  display: inline-block;
+  margin-right: 22px;
+}
+.icons-list li:first-child {
+  display: block;
+  margin-bottom: 19px;
+}
+.footertext {
+  float: right;
+  margin-right: 137.41px;
+  opacity: 0.7;
+}

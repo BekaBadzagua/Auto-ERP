@@ -1,0 +1,68 @@
+/* Fonts  */
+@font-face {
+  font-family: 'FiraGo';
+  src: url('../Fonts/FiraGO_TTF_1001/Roman/FiraGO-Regular.ttf');
+}
+@font-face {
+  font-family: 'FiraGO-Book';
+  src: url('../Fonts/FiraGO_TTF_1001/Roman/FiraGO-Book.ttf');
+}
+@font-face {
+  font-family: 'FiraGO-Regular';
+  src: url('../Fonts/FiraGO_TTF_1001/Roman/FiraGO-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'BPG Nino Mtavruli';
+  src: url('../Fonts/bpg-nino-mtavruli-master/bpg-nino-mtavruli-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../Fonts/bpg-nino-mtavruli-master/bpg-nino-mtavruli-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../Fonts/bpg-nino-mtavruli-master/bpg-nino-mtavruli-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../Fonts/bpg-nino-mtavruli-master/bpg-nino-mtavruli-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../Fonts/bpg-nino-mtavruli-master/bpg-nino-mtavruli-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../Fonts/bpg-nino-mtavruli-master/bpg-nino-mtavruli-webfont.svg#bpg_nino_mtavruliregular') format('svg'); /* Legacy iOS */
+}
+
+/* Reset Default Css */
+
+body,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  color: #454545;
+  font-weight: 600;
+  font-family: 'BPG Nino Mtavruli';
+  text-transform: uppercase;
+}
+p {
+  color: #454545;
+  font: 18px/28px 'FiraGO-Book';
+}
+
+ul {
+  list-style-type: none;
+}
+input:focus,button:focus,a:focus,textarea:focus{
+  outline: none;
+}
+
+/* Common Css */
+
+.centered {
+  text-align: center;
+}
+
+.Content {
+  width: 1600px;
+  margin: auto;
+  overflow: hidden;
+}
