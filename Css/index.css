@@ -8,8 +8,16 @@
   src: url('../Fonts/FiraGO_TTF_1001/Roman/FiraGO-Book.ttf');
 }
 @font-face {
-  font-family: 'FiraGO-Regular';
-  src: url('../Fonts/FiraGO_TTF_1001/Roman/FiraGO-Regular.ttf');
+  font-family: 'FiraGO-Medium';
+  src: url('../Fonts/FiraGO_TTF_1001/Roman/FiraGO-Medium.ttf');
+}
+@font-face {
+  font-family: 'FiraGO,Light';
+  src: url('../Fonts/FiraGO_TTF_1001/Roman/FiraGO-Light.ttf');
+}
+@font-face {
+  font-family: 'FiraGO-Bold';
+  src: url('../Fonts/FiraGO_TTF_1001/Roman/FiraGO-Bold.ttf');
 }
 
 @font-face {
@@ -41,7 +49,6 @@ h6 {
   color: #454545;
   font-weight: 600;
   font-family: 'BPG Nino Mtavruli';
-  text-transform: uppercase;
 }
 p {
   color: #454545;
@@ -65,4 +72,8 @@ input:focus,button:focus,a:focus,textarea:focus{
   width: 1600px;
   margin: auto;
   overflow: hidden;
+}
+
+.mediumText {
+  font-family: FiraGO-Medium;
 }
